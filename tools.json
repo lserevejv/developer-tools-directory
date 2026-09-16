@@ -1,0 +1,317 @@
+{
+  "api_development": [
+    {
+      "name": "Postman",
+      "description": "Complete API development environment",
+      "url": "https://www.postman.com",
+      "pricing": "Freemium",
+      "category": "API Development",
+      "features": ["API testing", "Documentation", "Mock servers", "Automation"],
+      "pros": ["Free tier available", "Great documentation", "Large community"],
+      "cons": ["Can be complex for beginners", "Premium features expensive"],
+      "best_for": "API testing and documentation"
+    },
+    {
+      "name": "Insomnia",
+      "description": "REST client for APIs",
+      "url": "https://insomnia.rest",
+      "pricing": "Free",
+      "category": "API Development",
+      "features": ["Request builder", "Environment variables", "Workspaces"],
+      "pros": ["Free and open source", "Clean interface", "Fast"],
+      "cons": ["Fewer features than Postman", "Less documentation"],
+      "best_for": "Simple API testing"
+    },
+    {
+      "name": "Swagger UI",
+      "description": "Interactive API documentation",
+      "url": "https://swagger.io/tools/swagger-ui/",
+      "pricing": "Free",
+      "category": "API Development",
+      "features": ["Interactive documentation", "Try it out", "Customizable"],
+      "pros": ["Industry standard", "Free", "Easy integration"],
+      "cons": ["Requires YAML configuration", "Limited customization"],
+      "best_for": "API documentation"
+    }
+  ],
+  "version_control": [
+    {
+      "name": "GitHub",
+      "description": "Git hosting and collaboration platform",
+      "url": "https://github.com",
+      "pricing": "Freemium",
+      "category": "Version Control",
+      "features": ["Git hosting", "Issues", "Pull requests", "Actions CI/CD"],
+      "pros": ["Largest community", "Free for public repos", "GitHub Actions"],
+      "cons": ["Private repos limited on free tier", "Can be slow"],
+      "best_for": "Open source and collaboration"
+    },
+    {
+      "name": "GitLab",
+      "description": "Git hosting with built-in CI/CD",
+      "url": "https://gitlab.com",
+      "pricing": "Freemium",
+      "category": "Version Control",
+      "features": ["Git hosting", "Built-in CI/CD", "Project management"],
+      "pros": ["Built-in CI/CD", "Self-hosting option", "More features than GitHub"],
+      "cons": ["Smaller community", "Interface can be complex"],
+      "best_for": "DevOps workflows"
+    },
+    {
+      "name": "Bitbucket",
+      "description": "Git hosting for teams",
+      "url": "https://bitbucket.org",
+      "pricing": "Freemium",
+      "category": "Version Control",
+      "features": ["Git hosting", "Jira integration", "Code reviews"],
+      "pros": ["Jira integration", "Good for enterprise", "Code insights"],
+      "cons": ["Smaller community", "Less innovative than GitHub"],
+      "best_for": "Enterprise teams using Jira"
+    }
+  ],
+  "ide_editors": [
+    {
+      "name": "VS Code",
+      "description": "Free, extensible code editor",
+      "url": "https://code.visualstudio.com",
+      "pricing": "Free",
+      "category": "IDE & Editors",
+      "features": ["Extensions", "Integrated terminal", "Git integration", "Debugging"],
+      "pros": ["Free", "Huge extension ecosystem", "Fast", "Cross-platform"],
+      "cons": ["Can be resource-heavy", "Setup required for optimal experience"],
+      "best_for": "General development"
+    },
+    {
+      "name": "PyCharm",
+      "description": "Python IDE by JetBrains",
+      "url": "https://www.jetbrains.com/pycharm",
+      "pricing": "Freemium",
+      "category": "IDE & Editors",
+      "features": ["Python debugging", "Virtualenv support", "Django/Flask support"],
+      "pros": ["Excellent Python support", "Powerful refactoring", "Database tools"],
+      "cons": ["Paid for professional features", "Resource-heavy"],
+      "best_for": "Python development"
+    },
+    {
+      "name": "WebStorm",
+      "description": "JavaScript IDE by JetBrains",
+      "url": "https://www.jetbrains.com/webstorm",
+      "pricing": "Paid",
+      "category": "IDE & Editors",
+      "features": ["JavaScript debugging", "React/Vue support", "TypeScript"],
+      "pros": ["Excellent JS support", "Smart code completion", "Built-in testing"],
+      "cons": ["Paid only", "Resource-heavy"],
+      "best_for": "JavaScript/TypeScript development"
+    }
+  ],
+  "database_tools": [
+    {
+      "name": "DBeaver",
+      "description": "Universal database tool",
+      "url": "https://dbeaver.io",
+      "pricing": "Free",
+      "category": "Database Tools",
+      "features": ["Multi-database support", "SQL editor", "Data visualization"],
+      "pros": ["Free", "Supports many databases", "Open source"],
+      "cons": ["Can be slow with large datasets", "UI not as polished as paid tools"],
+      "best_for": "Multi-database environments"
+    },
+    {
+      "name": "TablePlus",
+      "description": "Modern database GUI",
+      "url": "https://tableplus.com",
+      "pricing": "Freemium",
+      "category": "Database Tools",
+      "features": ["Clean interface", "Multiple database support", "Query builder"],
+      "pros": ["Beautiful UI", "Fast", "Intuitive"],
+      "cons": ["Paid for full features", "Limited free connections"],
+      "best_for": "Day-to-day database work"
+    },
+    {
+      "name": "DataGrip",
+      "description": "Database IDE by JetBrains",
+      "url": "https://www.jetbrains.com/datagrip",
+      "pricing": "Paid",
+      "category": "Database Tools",
+      "features": ["SQL editing", "Database inspection", "Version control"],
+      "pros": ["Powerful SQL tools", "Smart completion", "Multiple databases"],
+      "cons": ["Paid", "Resource-heavy"],
+      "best_for": "Professional database development"
+    }
+  ],
+  "devops_deployment": [
+    {
+      "name": "Docker",
+      "description": "Container platform",
+      "url": "https://www.docker.com",
+      "pricing": "Freemium",
+      "category": "DevOps & Deployment",
+      "features": ["Containerization", "Docker Compose", "Docker Hub"],
+      "pros": ["Industry standard", "Free for individuals", "Great documentation"],
+      "cons": ["Learning curve", "Can be complex for simple apps"],
+      "best_for": "Containerization and deployment"
+    },
+    {
+      "name": "Kubernetes",
+      "description": "Container orchestration",
+      "url": "https://kubernetes.io",
+      "pricing": "Free",
+      "category": "DevOps & Deployment",
+      "features": ["Container orchestration", "Auto-scaling", "Service discovery"],
+      "pros": ["Industry standard", "Scalable", "Cloud-agnostic"],
+      "cons": ["Steep learning curve", "Complex setup"],
+      "best_for": "Large-scale container deployments"
+    },
+    {
+      "name": "Terraform",
+      "description": "Infrastructure as code",
+      "url": "https://www.terraform.io",
+      "pricing": "Free",
+      "category": "DevOps & Deployment",
+      "features": ["Infrastructure provisioning", "State management", "Multi-cloud"],
+      "pros": ["Cloud-agnostic", "Declarative", "Large provider ecosystem"],
+      "cons": ["HCL learning curve", "State management can be tricky"],
+      "best_for": "Infrastructure automation"
+    }
+  ],
+  "testing": [
+    {
+      "name": "Jest",
+      "description": "JavaScript testing framework",
+      "url": "https://jestjs.io",
+      "pricing": "Free",
+      "category": "Testing",
+      "features": ["Unit testing", "Snapshot testing", "Code coverage"],
+      "pros": ["Zero config", "Fast", "Great documentation"],
+      "cons": ["JavaScript only", "Limited for E2E testing"],
+      "best_for": "JavaScript/TypeScript testing"
+    },
+    {
+      "name": "Pytest",
+      "description": "Python testing framework",
+      "url": "https://pytest.org",
+      "pricing": "Free",
+      "category": "Testing",
+      "features": ["Simple syntax", "Fixtures", "Plugins"],
+      "pros": ["Easy to use", "Powerful fixtures", "Large plugin ecosystem"],
+      "cons": ["Slower than unittest for some cases", "Learning curve for advanced features"],
+      "best_for": "Python testing"
+    },
+    {
+      "name": "Cypress",
+      "description": "End-to-end testing framework",
+      "url": "https://www.cypress.io",
+      "pricing": "Freemium",
+      "category": "Testing",
+      "features": ["E2E testing", "Time travel debugging", "Automatic waiting"],
+      "pros": ["Great developer experience", "Fast", "Good documentation"],
+      "cons": ["JavaScript only", "Can be flaky", "Premium features paid"],
+      "best_for": "E2E testing"
+    }
+  ],
+  "monitoring_logging": [
+    {
+      "name": "Datadog",
+      "description": "Cloud monitoring platform",
+      "url": "https://www.datadoghq.com",
+      "pricing": "Paid",
+      "category": "Monitoring & Logging",
+      "features": ["APM", "Infrastructure monitoring", "Log management"],
+      "pros": ["Comprehensive", "Great UI", "Many integrations"],
+      "cons": ["Expensive", "Can be complex to set up"],
+      "best_for": "Enterprise monitoring"
+    },
+    {
+      "name": "New Relic",
+      "description": "Application performance monitoring",
+      "url": "https://newrelic.com",
+      "pricing": "Freemium",
+      "category": "Monitoring & Logging",
+      "features": ["APM", "Infrastructure", "Browser monitoring"],
+      "pros": ["Easy setup", "Good free tier", "Comprehensive"],
+      "cons": ["Can be expensive", "UI can be complex"],
+      "best_for": "Application monitoring"
+    },
+    {
+      "name": "Grafana",
+      "description": "Visualization and monitoring platform",
+      "url": "https://grafana.com",
+      "pricing": "Free",
+      "category": "Monitoring & Logging",
+      "features": ["Data visualization", "Dashboards", "Alerting"],
+      "pros": ["Free", "Beautiful dashboards", "Many data sources"],
+      "cons": ["Requires data source setup", "Learning curve"],
+      "best_for": "Data visualization and dashboards"
+    }
+  ],
+  "design_prototyping": [
+    {
+      "name": "Figma",
+      "description": "Collaborative design tool",
+      "url": "https://www.figma.com",
+      "pricing": "Freemium",
+      "category": "Design & Prototyping",
+      "features": ["UI design", "Prototyping", "Collaboration"],
+      "pros": ["Web-based", "Real-time collaboration", "Free tier generous"],
+      "cons": "Can be slow with large files", "Offline mode limited"],
+      "best_for": "UI/UX design"
+    },
+    {
+      "name": "Sketch",
+      "description": "Vector graphics editor",
+      "url": "https://www.sketch.com",
+      "pricing": "Paid",
+      "category": "Design & Prototyping",
+      "features": ["UI design", "Symbols", "Plugins"],
+      "pros": ["Industry standard", "Great plugins", "Mac native"],
+      "cons": ["Mac only", "Paid", "No real-time collaboration"],
+      "best_for": "Mac-based UI design"
+    },
+    {
+      "name": "Adobe XD",
+      "description": "UI/UX design tool",
+      "url": "https://www.adobe.com/products/xd.html",
+      "pricing": "Freemium",
+      "category": "Design & Prototyping",
+      "features": ["UI design", "Prototyping", "Adobe ecosystem"],
+      "pros": ["Free", "Adobe integration", "Good prototyping"],
+      "cons": ["Less popular than Figma", "Fewer plugins"],
+      "best_for": "Adobe ecosystem users"
+    }
+  ],
+  "project_management": [
+    {
+      "name": "Jira",
+      "description": "Issue tracking and project management",
+      "url": "https://www.atlassian.com/software/jira",
+      "pricing": "Freemium",
+      "category": "Project Management",
+      "features": ["Issue tracking", "Sprint planning", "Reporting"],
+      "pros": ["Industry standard", "Powerful", "Many integrations"],
+      "cons": ["Complex", "Can be expensive", "Steep learning curve"],
+      "best_for": "Software project management"
+    },
+    {
+      "name": "Linear",
+      "description": "Modern issue tracking",
+      "url": "https://linear.app",
+      "pricing": "Paid",
+      "category": "Project Management",
+      "features": ["Issue tracking", "Sprint planning", "Roadmaps"],
+      "pros": ["Beautiful UI", "Fast", "Great keyboard shortcuts"],
+      "cons": ["Paid only", "Fewer features than Jira"],
+      "best_for": "Modern software teams"
+    },
+    {
+      "name": "Notion",
+      "description": "All-in-one workspace",
+      "url": "https://www.notion.so",
+      "pricing": "Freemium",
+      "category": "Project Management",
+      "features": ["Documents", "Databases", "Wikis", "Project tracking"],
+      "pros": ["Flexible", "Beautiful", "Great free tier"],
+      "cons": ["Can get disorganized", "Not optimized for large teams"],
+      "best_for": "Knowledge management and lightweight project tracking"
+    }
+  ]
+}
