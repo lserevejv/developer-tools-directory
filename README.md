@@ -92,6 +92,13 @@ This directory is provided as a reference. Tool availability and pricing may cha
 
 Suggest new tools or update existing ones by opening an issue or pull request.
 
+## Want to Learn More?
+
+Check out my comprehensive API integration learning materials:
+
+- **[API Integration Master Guide](https://codetoday.gumroad.com/l/APIMasterGuide)** - Complete guide from zero to production (PDF + EPUB)
+- **[API Integration Master Course](https://codetoday.gumroad.com/l/APIMasterCourse)** - Self-paced course with projects and exercises
+
 ---
 
 *Save time and find the right tools faster with this curated directory.*
