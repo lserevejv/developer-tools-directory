@@ -39,6 +39,7 @@ A curated directory of the best developer tools, libraries, and services. Save h
 - Pytest - Python testing framework
 - Selenium - Web browser automation
 - Cypress - End-to-end testing
+- [agent-qa](https://vostride.com) - Web and mobile QA through CLI/MCP, with advanced memidex memory and evidence-based test improvement
 
 ### Monitoring & Logging
 - Datadog - Cloud monitoring

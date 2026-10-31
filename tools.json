@@ -207,6 +207,17 @@
       "pros": ["Great developer experience", "Fast", "Good documentation"],
       "cons": ["JavaScript only", "Can be flaky", "Premium features paid"],
       "best_for": "E2E testing"
+    },
+    {
+      "name": "agent-qa",
+      "description": "Natural-language web and mobile QA with persistent memory and evidence-based test improvement",
+      "url": "https://vostride.com",
+      "pricing": "Free CLI; model usage costs apply",
+      "category": "Testing",
+      "features": ["Web, Android and iOS testing", "CLI and MCP integration", "Advanced memidex memory", "Evidence-based test improvement"],
+      "pros": ["Retains validated app facts across runs", "Produces reviewable verdicts and evidence", "Works with coding agents"],
+      "cons": ["Requires Node.js 24+ and model access", "FSL-1.1-ALv2 license terms apply"],
+      "best_for": "Natural-language end-to-end QA from coding agents and CI"
     }
   ],
   "monitoring_logging": [
@@ -253,7 +264,7 @@
       "category": "Design & Prototyping",
       "features": ["UI design", "Prototyping", "Collaboration"],
       "pros": ["Web-based", "Real-time collaboration", "Free tier generous"],
-      "cons": "Can be slow with large files", "Offline mode limited"],
+      "cons": ["Can be slow with large files", "Offline mode limited"],
       "best_for": "UI/UX design"
     },
     {
